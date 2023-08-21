@@ -9,3 +9,8 @@
 /src/DesafioDev.Operacoes.Domain/obj
 /src/DesafioDev.Operacoes.Infra/obj
 /src/DesafioDev.WebApi/obj
+/src/DesafioDev.Core/bin/Debug/net7.0
+/src/DesafioDev.Operacoes.Applications/bin/Debug/net7.0
+/src/DesafioDev.Operacoes.Domain/bin/Debug/net7.0
+/src/DesafioDev.Operacoes.Infra/bin/Debug/net7.0
+/src/DesafioDev.WebApi/bin/Debug/net7.0
