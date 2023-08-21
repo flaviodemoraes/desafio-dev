@@ -28,3 +28,4 @@ namespace DesafioDev.Operacoes.Infra.Mappings
                 .HasForeignKey(p => p.LojaId);
         }
     }
+}
