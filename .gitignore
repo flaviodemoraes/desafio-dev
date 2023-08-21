@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/desafio-dev/FileContentIndex
+/.vs/desafio-dev/v17
+/src/DesafioDev.Core/obj
+/src/DesafioDev.Operacoes.Applications/obj
+/src/DesafioDev.Operacoes.Domain/obj
+/src/DesafioDev.Operacoes.Infra/obj
+/src/DesafioDev.WebApi/obj
