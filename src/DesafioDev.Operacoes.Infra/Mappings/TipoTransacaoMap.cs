@@ -14,8 +14,8 @@ namespace DesafioDev.Operacoes.Infra.Mappings
             builder.HasKey(c => c.Tipo);
 
             builder.Property(c => c.Descricao)
-               .HasColumnType("varchar(20)")
-               .HasMaxLength(20)
+               .HasColumnType("varchar(50)")
+               .HasMaxLength(50)
                .IsRequired();
 
             builder.Property(c => c.Natureza)
