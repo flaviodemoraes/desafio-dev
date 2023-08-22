@@ -17,3 +17,5 @@
 /.vs/desafio-dev/DesignTimeBuild
 /bin/Debug
 /obj
+/.vs/ProjectEvaluation
+/mysql_data

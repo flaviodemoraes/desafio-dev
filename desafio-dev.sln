@@ -11,19 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - WebApi", "2 - WebApi", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{C3080BF7-C194-4F3B-9216-0442735040C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDev.Core", "src\DesafioDev.Core\DesafioDev.Core.csproj", "{02AC72D1-D75D-4C76-9F3C-DC6BEDD11DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.Core", "src\DesafioDev.Core\DesafioDev.Core.csproj", "{02AC72D1-D75D-4C76-9F3C-DC6BEDD11DC6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operacoes", "Operacoes", "{5647D926-0780-48C5-B4B6-82EE0CCAB5DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDev.Operacoes.Domain", "src\DesafioDev.Operacoes.Domain\DesafioDev.Operacoes.Domain.csproj", "{31F4A729-5385-4CDA-AAB3-E73303460E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.Operacoes.Domain", "src\DesafioDev.Operacoes.Domain\DesafioDev.Operacoes.Domain.csproj", "{31F4A729-5385-4CDA-AAB3-E73303460E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDev.Operacoes.Infra", "src\DesafioDev.Operacoes.Infra\DesafioDev.Operacoes.Infra.csproj", "{94A97FF4-0FFE-4581-B1DA-0BA88B3768EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.Operacoes.Infra", "src\DesafioDev.Operacoes.Infra\DesafioDev.Operacoes.Infra.csproj", "{94A97FF4-0FFE-4581-B1DA-0BA88B3768EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDev.Operacoes.Applications", "src\DesafioDev.Operacoes.Applications\DesafioDev.Operacoes.Applications.csproj", "{C4B3C292-B7CA-47B4-BCD7-9AB1CA400CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.Operacoes.Applications", "src\DesafioDev.Operacoes.Applications\DesafioDev.Operacoes.Applications.csproj", "{C4B3C292-B7CA-47B4-BCD7-9AB1CA400CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDev.WebApi", "src\DesafioDev.WebApi\DesafioDev.WebApi.csproj", "{62ED200D-53B0-4A58-AEF4-55ACB411F83C}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{95E4DF32-BAB1-4DE3-977F-4AFAAD8868A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.WebApi", "src\DesafioDev.WebApi\DesafioDev.WebApi.csproj", "{62ED200D-53B0-4A58-AEF4-55ACB411F83C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +49,6 @@ Global
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95E4DF32-BAB1-4DE3-977F-4AFAAD8868A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95E4DF32-BAB1-4DE3-977F-4AFAAD8868A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95E4DF32-BAB1-4DE3-977F-4AFAAD8868A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95E4DF32-BAB1-4DE3-977F-4AFAAD8868A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
