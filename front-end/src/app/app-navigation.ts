@@ -5,16 +5,16 @@ export const navigation = [
     icon: 'home'
   },
   {
-    text: 'Examples',
+    text: 'Operações',
     icon: 'folder',
     items: [
       {
-        text: 'Profile',
-        path: '/profile'
+        text: 'Lista',
+        path: '/operacoes'
       },
       {
-        text: 'Tasks',
-        path: '/tasks'
+        text: 'Enviar arquivo',
+        path: '/file-upload'
       }
     ]
   }
