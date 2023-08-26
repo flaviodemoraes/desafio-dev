@@ -19,3 +19,6 @@
 /obj
 /.vs/ProjectEvaluation
 /mysql_data
+/tests/DesafioDev.Tests/obj/Debug/net7.0
+/tests/DesafioDev.Tests/obj
+/tests/DesafioDev.Tests/bin/Debug/net7.0

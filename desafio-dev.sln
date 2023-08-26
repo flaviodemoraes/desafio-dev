@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.Operacoes.Applic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDev.WebApi", "src\DesafioDev.WebApi\DesafioDev.WebApi.csproj", "{62ED200D-53B0-4A58-AEF4-55ACB411F83C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDev.Tests", "tests\DesafioDev.Tests\DesafioDev.Tests.csproj", "{9FDDBF26-3CB3-485D-BF08-50B0E39404EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDDBF26-3CB3-485D-BF08-50B0E39404EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDDBF26-3CB3-485D-BF08-50B0E39404EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDDBF26-3CB3-485D-BF08-50B0E39404EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDDBF26-3CB3-485D-BF08-50B0E39404EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{94A97FF4-0FFE-4581-B1DA-0BA88B3768EA} = {5647D926-0780-48C5-B4B6-82EE0CCAB5DE}
 		{C4B3C292-B7CA-47B4-BCD7-9AB1CA400CB5} = {5647D926-0780-48C5-B4B6-82EE0CCAB5DE}
 		{62ED200D-53B0-4A58-AEF4-55ACB411F83C} = {3BB48CC0-FE71-4BA4-8B16-BAEFA64DE45D}
+		{9FDDBF26-3CB3-485D-BF08-50B0E39404EF} = {C3080BF7-C194-4F3B-9216-0442735040C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00496C3D-F567-44B4-ACE2-34CC9EED59B0}
