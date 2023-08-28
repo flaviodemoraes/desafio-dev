@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.10" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
     <PackageReference Include="Moq" Version="4.20.69" />
@@ -19,11 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Operacoes\Infra\Logs\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\src\DesafioDev.Core\DesafioDev.Core.csproj" />
+    <ProjectReference Include="..\..\src\DesafioDev.Operacoes.Applications\DesafioDev.Operacoes.Applications.csproj" />
     <ProjectReference Include="..\..\src\DesafioDev.Operacoes.Infra\DesafioDev.Operacoes.Infra.csproj" />
   </ItemGroup>
 

@@ -86,8 +86,7 @@ namespace DesafioDev.Operacoes.Applications.Services.Impl
                     }
 
                     // Validate Loja
-
-                    var loja = await CheckIfTheStoreExists(operacao.Loja);
+                    var loja = await _repository.GetListLojaByNameAsync(operacao.Loja.NomeLoja);
 
                     if (loja == null) loja = await SaveLoja(operacao.Loja);
 
@@ -108,11 +107,6 @@ namespace DesafioDev.Operacoes.Applications.Services.Impl
                 _repository.UnitOfWork.Rollback();
                 throw;
             }
-        }
-
-        private async Task<Loja?> CheckIfTheStoreExists(LojaViewModel viewModel)
-        {
-            return await _repository.GetListLojaByNameAsync(viewModel.NomeLoja);
         }
 
         private async Task<Loja?> SaveLoja(LojaViewModel viewModel)

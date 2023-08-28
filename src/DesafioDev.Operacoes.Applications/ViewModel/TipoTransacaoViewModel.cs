@@ -2,9 +2,9 @@
 {
     public class TipoTransacaoViewModel
     {
-        public int Tipo { get; private set; }
-        public string Descricao { get; private set; }
-        public string Natureza { get; private set; }
-        public string Sinal { get; private set; }
+        public int Tipo { get; set; }
+        public string Descricao { get; set; }
+        public string Natureza { get; set; }
+        public string Sinal { get; set; }
     }
 }

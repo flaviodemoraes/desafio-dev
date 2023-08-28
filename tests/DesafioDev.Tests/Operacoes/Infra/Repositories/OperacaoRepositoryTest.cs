@@ -17,7 +17,7 @@ namespace DesafioDev.Tests.Operacoes.Infra.Repositories
         List<TipoTransacao> _tiposTransacoes;
 
         [SetUp]
-        public async Task Setup()
+        public void Setup()
         {
             _loggerMock = new Mock<ILogger>();
 
