@@ -1,16 +1,17 @@
 import { Component } from '@angular/core';
-import { FileUploadService } from '../services/file-upload.service';
+import { FileUploadService } from 'src/app/services/file-upload.service';
+
+import 'devextreme/data/odata/store';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-file-uploads',
-  templateUrl: './file-uploads.component.html',
-  styleUrls: ['./file-uploads.component.scss']
+  templateUrl: './file-upload.component.html',
+  styleUrls: ['./file-upload.component.scss']
 })
-export class FileUploadsComponent {
-
+export class FileUploadComponent {
   selectedFile: File | null = null;
 
-  constructor(private _fileService: FileUploadService) { }
+  constructor(private _fileService: FileUploadService, private router: Router) { }
 
   public get fileService(): FileUploadService {
     return this._fileService;
@@ -32,6 +33,8 @@ export class FileUploadsComponent {
             response => {
               console.log(response);
               alert('Arquivo enviado com sucesso!');
+              this.router.navigate(['operacoes'])
+
             },
             error => {
               console.error(error);
@@ -45,5 +48,4 @@ export class FileUploadsComponent {
       alert('Por favor, selecione um arquivo antes de enviar.');
     }
   }
-
 }

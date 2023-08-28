@@ -1,0 +1,16 @@
+::ng-deep .rect {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    height: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+::ng-deep .fileUpload_box {
+    padding-top: 25px;
+}
+
+::ng-deep .small {
+    height: 50px;
+}
