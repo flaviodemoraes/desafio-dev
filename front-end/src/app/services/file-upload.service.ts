@@ -12,7 +12,7 @@ export class FileUploadService {
 
   uploadArquivo(file: File) {
     const formData = new FormData();
-    const uri = this.apiURL + 'upload';
+    const uri = this.apiURL + 'api/fileUpload';
 
     formData.append('file', file, file.name);
     return this.http.post(uri, formData);

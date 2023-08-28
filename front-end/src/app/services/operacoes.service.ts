@@ -16,7 +16,7 @@ export class OperacoesService {
       .set('page', page.toString())
       .set('limit', limit.toString());
 
-    return this.http.get(`${this.apiURL}/obterListaLojas`, { params });
+    return this.http.get(`${this.apiURL}/api/obterListaLojas`, { params });
   }
 
   // obterOperacoesPorLojas
@@ -26,6 +26,6 @@ export class OperacoesService {
       .set('page', page.toString())
       .set('limit', limit.toString());
 
-    return this.http.get(`${this.apiURL}/obterOperacoesPorLojas`, { params });
+    return this.http.get(`${this.apiURL}/api/obterOperacoesPorLojas`, { params });
   }
 }
